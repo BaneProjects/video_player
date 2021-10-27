@@ -167,6 +167,7 @@ fullscreen.addEventListener("click", () => {
   if (!video_player.classList.contains("openFullScreen")) {
     video_player.classList.add("openFullScreen");
     fullscreen.innerHTML = "fullscreen_exit";
+      settings.style.height = "250px";
     video_player.requestFullscreen();
   } else {
     video_player.classList.remove("openFullScreen");
