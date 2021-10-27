@@ -172,6 +172,7 @@ fullscreen.addEventListener("click", () => {
   } else {
     video_player.classList.remove("openFullScreen");
     fullscreen.innerHTML = "fullscreen";
+    settings.style.height = "50%";
     document.exitFullscreen();
   }
 });
