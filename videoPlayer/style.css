@@ -235,11 +235,11 @@ section {
   right: 25px;
   bottom: 62px;
   background: rgb(28 28 28 / 90%);
-  width: 200px;
-  height: 250px;
+  height: 50%;
   color: #fff;
   overflow-y: scroll;
-  z-index: 20;
+  overflow-x: hidden;
+  z-index: 1;
   display: none;
 }
 #video_player #settings.active {
@@ -263,6 +263,10 @@ section {
   padding: 12px 33px;
   display: block;
   font-size: 14px;
+}
+.playback ul {
+  padding: 0;
+  margin: 0;
 }
 #video_player #settings .playback ul li:hover {
   background: rgba(28, 28, 28, 0.9);
